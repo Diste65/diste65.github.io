@@ -166,8 +166,15 @@
             flex-direction: column;
             align-items: center;
         }
+        &__img {
+            margin-left: 0;
+            width: 169px;
+            height: 169px;
         img {
             width: 169px;
+        }
+            
+            
         }
         &__item {
             margin-top: 20px;
@@ -177,6 +184,14 @@
             width: 280px;
         }
     }    
-    
+    .footer {
+        &__info {
+            width: 320px;
+        }
+        
+        &__addr {
+            font-size: 18px;
+        }
+    }
     
 }

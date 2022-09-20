@@ -8,6 +8,9 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #FFFFFF;
+    &:hover {
+        box-shadow: 3px 3px 20px #FFFFFF;
+    }
     &_main {
         margin-top: 65px;
         width: 303px;
@@ -24,6 +27,9 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+        }
     }
 
 }
