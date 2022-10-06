@@ -196,5 +196,14 @@
             margin: auto;
         }
     }
+    .modal {
+        width: 100%;
+        &__close {
+            right: 5px;
+            top: 5px;
+        }
+    }.feed-form {
+        width: 240px;
+    }
     
 }
