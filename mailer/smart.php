@@ -11,15 +11,15 @@ $mail->CharSet = 'utf-8';
 // $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->Host = 'smtp.ukr.net';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'diste65@gmail.com';                 // Наш логин
-$mail->Password = 'adsckwiuxypncjxk';                           // Наш пароль от ящика
+$mail->Username = 'diste@ukr.net';                 // Наш логин
+$mail->Password = 'SqoeoD7dewsbDauh';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('diste65@gmail.com', 'Pulse');   // От кого письмо 
-$mail->addAddress('vikapmdp@gmail.com');     // Add a recipient
+$mail->setFrom('diste@ukr.net', 'Pulse');   // От кого письмо 
+$mail->addAddress('diste@i.ua');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
