@@ -8,4 +8,13 @@
         line-height: 30px;
         color: #FFFFFF;
     }
+    .error {
+        border: 2px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 15px;
+    }
 }
