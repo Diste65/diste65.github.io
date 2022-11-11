@@ -31,4 +31,17 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            // animation-name: heartbeat;
+            // animation-duration: 1s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            //  или в одну строчку ниже:
+            animation: heartbeat 1s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
